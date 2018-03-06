@@ -6,3 +6,40 @@
 .top-buffer{
     margin-top: 30px;
 }
+
+.answer{
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.answer:hover {
+    cursor: pointer;
+}
+
+.image-answer{
+    cursor: pointer;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.image-answer img{
+    width: 100%;
+    height: auto;
+}
+
+.image-selected{
+    border: 3px solid aqua;
+
+}
+.image-answer.bg-success{
+    border: 3px solid green;
+}
+.image-answer.bg-danger{
+    border: 3px solid red;
+}
